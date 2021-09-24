@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Testing Suite">
+	<test
+		name="Test : Product successfully added to your shopping cart">
+		<classes>
+			<class name="com.CongaDemo.tests.PrecticeTest">
+				<methods>
+			
+					<include name="test_01" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

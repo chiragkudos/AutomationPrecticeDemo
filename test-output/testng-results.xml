@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br>1 : Sign in using the credentials.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>2 : Select the category as T-Shirts.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>3 : Click on the product: Faded Short Sleeve T-shirts.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Prodct NameFaded Short Sleeve T-shirts]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>4 : Click on Add to Cart.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Product successfully added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>5 : Click on proceed to checkout.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Total Actual Amount :16.51]]>
+    </line>
+    <line>
+      <![CDATA[<br> <b>Please look to the screenshot - 0306144235912</b>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>TEST PASSED - test_01
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-06T09:11:56Z" name="UI Testing Suite" finished-at="2021-03-06T09:12:38Z" duration-ms="42063">
+    <groups>
+    </groups>
+    <test started-at="2021-03-06T09:11:56Z" name="Test : Product successfully added to your shopping cart" finished-at="2021-03-06T09:12:38Z" duration-ms="42063">
+      <class name="com.CongaDemo.tests.PrecticeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.CongaDemo.tests.PrecticeTest@13c10b87]" started-at="2021-03-06T09:11:56Z" name="setup" finished-at="2021-03-06T09:12:12Z" duration-ms="15346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_01()[pri:0, instance:com.CongaDemo.tests.PrecticeTest@13c10b87]" started-at="2021-03-06T09:12:12Z" name="test_01" finished-at="2021-03-06T09:12:35Z" duration-ms="23819" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>1 : Sign in using the credentials.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>2 : Select the category as T-Shirts.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>3 : Click on the product: Faded Short Sleeve T-shirts.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Prodct NameFaded Short Sleeve T-shirts]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>4 : Click on Add to Cart.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Product successfully added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>5 : Click on proceed to checkout.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Total Actual Amount :16.51]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.CongaDemo.tests.PrecticeTest@13c10b87]" started-at="2021-03-06T09:12:35Z" name="tearDown" finished-at="2021-03-06T09:12:38Z" duration-ms="2849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_01 status=SUCCESS method=PrecticeTest.test_01()[pri:0, instance:com.CongaDemo.tests.PrecticeTest@13c10b87] output=<br></br>1 : Sign in using the credentials.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - 0306144235912</b>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>TEST PASSED - test_01
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CongaDemo.tests.PrecticeTest -->
+    </test> <!-- Test : Product successfully added to your shopping cart -->
+  </suite> <!-- UI Testing Suite -->
+</testng-results>
